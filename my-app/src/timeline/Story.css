@@ -1,0 +1,40 @@
+.story{
+    margin-top: 25px;
+    max-width: 800px;
+    
+}
+.users{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    
+    
+}
+
+.user {
+    position: relative;
+    width: 60px; /* Set your preferred width for the story container */
+    height: 60px; /* Set your preferred height for the story container */
+    overflow: hidden;
+    border-radius: 50%; /* Make it a circle */
+    border: 3px solid #9237d7; /* Set the border color */
+    display: flex;
+    margin-right: 15px;
+    flex-direction: row;
+    
+}
+
+.avatar{
+    display:flex ;
+    margin: auto;
+    justify-content: left;
+
+}
+.av{
+    height: 50px !important;
+    width: 50px !important;
+}
+
+
+
+

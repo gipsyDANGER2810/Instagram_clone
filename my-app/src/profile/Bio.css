@@ -1,0 +1,183 @@
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio__info {
+    display: flex;
+    flex-direction: row;
+}
+
+.bio__username {
+    font-size: large;
+
+
+}
+
+.bio__info__left {
+    display: flex;
+
+    flex: 0.4;
+    margin-top: 75px;
+    margin-right: -100px;
+
+
+
+
+}
+
+.bio__info__right {
+    flex: 0.6;
+    margin-top: 75px;
+
+
+}
+
+.bio__posts {
+    display: flex;
+    flex: 0.7;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.bio__avatar {
+    height: 150px !important;
+    width: 150px !important;
+    justify-content: right;
+    margin-left: 250px;
+
+}
+
+.header__button {
+
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+    margin-left: 10px;
+
+
+}
+
+.header__button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.header__buttons {
+
+    display: flex inline;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.followers {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 15%;
+    font-size: medium;
+
+}
+
+.followers:hover {
+    cursor: pointer;
+}
+
+.following {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 15%;
+    font-size: medium;
+}
+
+.following:hover {
+    cursor: pointer;
+}
+
+.bio__header__right__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio__header__right__info {
+    margin-top: 25px;
+}
+
+.bio__info__right__header {
+    margin-top: -35px;
+}
+
+.bio__posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.bio__post__header>button {
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 30px 30px 30px 30px;
+}
+
+.bio__post__header>button:hover {
+    cursor: pointer;
+
+}
+
+.bio__post__header {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid grey;
+    width: 70%;
+    margin-left: 100px
+}
+
+/* .saved__posts {
+
+    border: 1;
+    border-color: white;
+} */
+
+.bio__post__content {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    max-width: 70%;
+    margin-left: 100px;
+
+}
+
+.bio__post__content>img {
+
+
+    width: 100%;
+    height: auto;
+    max-width: 309px;
+    max-height: 309px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.bio__post__content>img:hover {
+    cursor: pointer;
+}
+
+.bio__about{
+    width: 50em;
+}

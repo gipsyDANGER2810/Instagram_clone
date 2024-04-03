@@ -1,0 +1,42 @@
+/* .profile__header__button {
+
+    display: flex inline;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+.profile__header__buttons {
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+.profile__header__buttons:hover {
+    cursor: pointer;
+    background-color: grey;
+
+}
+
+.username:hover{
+    cursor: pointer;
+} */
+
+.profile{
+    display: flex;
+    flex-direction: row;
+
+} 
+
+.profile__nav{
+    flex: 0.2;
+}
+
+.profile__bio{
+    flex: 0.8;
+}
